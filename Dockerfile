@@ -1,5 +1,6 @@
-FROM docker:20.10.20-alpine3.16
+FROM docker:20.10.23-alpine3.17
 
 RUN apk add \
         bash \
+        curl \
         aws-cli
