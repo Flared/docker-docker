@@ -4,4 +4,5 @@ RUN apk add \
         bash \
         curl \
         go \
+        make \
         aws-cli
