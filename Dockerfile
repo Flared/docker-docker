@@ -5,4 +5,6 @@ RUN apk add \
         curl \
         go \
         make \
+        python3 \
+        py3-requests \
         aws-cli
