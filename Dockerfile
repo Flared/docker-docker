@@ -1,4 +1,4 @@
-FROM docker:25.0.4-alpine3.19
+FROM docker:27.3.1-alpine3.20
 
 RUN apk add \
         bash \
