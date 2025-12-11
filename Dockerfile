@@ -4,7 +4,7 @@ RUN apk add \
         bash \
         coreutils \
         curl \
-        go=~1.24.9 \
+        go=~1.24.11 \
         make \
         python3 \
         py3-requests \
