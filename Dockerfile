@@ -8,4 +8,5 @@ RUN apk add \
         make \
         python3 \
         py3-requests \
-        aws-cli
+        aws-cli \
+        iptables iproute2 tailscale
