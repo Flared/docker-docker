@@ -8,6 +8,7 @@ RUN apk add \
         make \
         python3 \
         py3-requests \
+        py3-boto3 \
         aws-cli \
         iptables \
         iproute2 \
