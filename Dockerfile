@@ -1,12 +1,14 @@
-FROM docker:28.5.1-alpine3.22
+FROM docker:29.6.0-alpine3.24
 
 RUN apk add \
         bash \
         coreutils \
         curl \
-        go=~1.24.11 \
+        go>=1.24 \
         make \
         python3 \
         py3-requests \
         aws-cli \
-        iptables iproute2 tailscale
+        iptables \
+        iproute2 \
+        tailscale
