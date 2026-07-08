@@ -2,6 +2,8 @@ FROM docker:29.6.0-alpine3.24
 
 RUN apk add \
         bash \
+        git \
+        git-lfs \
         coreutils \
         curl \
         go>=1.24 \
