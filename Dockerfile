@@ -1,4 +1,4 @@
-FROM docker:29.6.1-alpine3.24
+FROM docker:29.7.2-alpine3.24
 
 RUN apk add \
         docker-credential-ecr-login \
