@@ -1,6 +1,7 @@
 FROM docker:29.6.1-alpine3.24
 
 RUN apk add \
+        docker-credential-ecr-login \
         bash \
         git \
         git-lfs \
