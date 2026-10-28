@@ -7,7 +7,7 @@ RUN apk add \
         git-lfs \
         coreutils \
         curl \
-        go>=1.24 \
+        go>=1.26.10 \
         make \
         python3 \
         py3-requests \
