@@ -1,5 +1,9 @@
 FROM docker:29.7.2-alpine3.24
 
+COPY --from=golang:1.27.3-alpine3.24 /usr/local/go /usr/local/go
+ENV PATH=/usr/local/go/bin:$PATH \
+    GOTOOLCHAIN=local
+
 RUN apk add \
         docker-credential-ecr-login \
         bash \
@@ -7,7 +11,6 @@ RUN apk add \
         git-lfs \
         coreutils \
         curl \
-        go>=1.26.10 \
         make \
         python3 \
         py3-requests \
